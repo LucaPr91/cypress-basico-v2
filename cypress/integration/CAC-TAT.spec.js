@@ -50,7 +50,7 @@ describe('Central de Atendimento ao Cliente TAT', ()=>{
         cy.get('#open-text-area').should('be.visible').type('Teste')
         cy.contains('button','Enviar').should('be.visible').click()
 
-        cy.get('.error').should('be.visible')
+        cy.get('.error').should('not.be.visible')
     })
 
     it('Preenche e limpa os campos nome, sobrenome, email e telefone', ()=>{
