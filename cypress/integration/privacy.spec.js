@@ -1,6 +1,6 @@
 describe('CAC TAT - Política de privacidade', ()=>{
     beforeEach(()=>{
-        cy.visit('./Src/privacy.html')
+        cy.visit('./src/privacy.html')
     })
     
     it('verifica o título da aplicação',()=>{
